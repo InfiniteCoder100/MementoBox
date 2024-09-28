@@ -4,8 +4,8 @@
 
 :root {
   --foreground: #E2E2E2;
-  --background: #121212;
-  --bg: #121212;
+  --background: #121212; 
+  --bg: #121212; 
   --fg: #E2E2E2;
   --fg-disabled: rgba(255, 255, 255, 0.38);
   --primary: #BB86FC;
@@ -20,12 +20,25 @@
   --bg-alt: rgba(164, 150, 180, 1);
 }
 
+
+html.light {
+  --background: #ffffff; 
+  --fg: #000000; 
+  --border: rgba(0, 0, 0, 0.1);
+}
+
+
+html.dark {
+  --background: #121212; 
+  --fg: #E2E2E2;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  color: var(--foreground);
+  color: var(--fg);
   background: var(--background);
 }
 

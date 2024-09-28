@@ -6,6 +6,8 @@ import Header from '@/components/Header/Header'
 import Main from '@/components/Main/Main'
 import CreateMementoForm from '@/components/CreateMementoForm/CreateMementoForm'
 import MementoBox from '@/components/MementoBox/MementoBox'
+import ContactUs from '@/components/ContactUs/ContactUs'
+import Footer from '@/components/Footer/Footer'
 
 import { Memento, uploadMemento } from '@/services/memento'
 import { useContract } from '@/services/contract'
@@ -66,6 +68,8 @@ export default function Home() {
         }
 
         <MementoBox />
+        <ContactUs />
+        <Footer />
       </main>
     </>
   )
