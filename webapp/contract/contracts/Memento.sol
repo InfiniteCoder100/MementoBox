@@ -40,3 +40,6 @@ contract Memento {
         return mementoes[id];
     }
 }
+
+
+// Contract Deployed : 0xc7f5c7f3819b107559567b556207b9fc0619e4a9
