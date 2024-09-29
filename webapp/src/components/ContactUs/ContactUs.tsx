@@ -8,15 +8,18 @@ const Contact: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Form submitted:', { name, email, contactDetails, message });
     // Add your submission logic here
   };
 
   return (
-    <section className="bg-gray-500 py-20">
+    <section
+      id="contact"
+      className={`py-20 transition-colors duration-300`}
+    >
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 text-center">Get in Touch</h2>
-        <div className="max-w-1400 mx-auto bg-gray-900 p-6 rounded-lg shadow-xl">
+        
+        <div className={`max-w-1400 mx-auto p-6 rounded-lg shadow-xl transition-colors duration-300`}>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="flex flex-col md:flex-row space-x-4">
               <div className="w-full md:w-1/2 pr-4">
@@ -26,7 +29,8 @@ const Contact: React.FC = () => {
                   id="name"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  className="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="Enter your name"
+                  className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 transition-all duration-300 placeholder-gray-400 text-black`}
                 />
               </div>
               <div className="w-full md:w-1/2 pl-4">
@@ -36,7 +40,8 @@ const Contact: React.FC = () => {
                   id="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="Enter your email"
+                  className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 transition-all duration-300 placeholder-gray-400 text-black`}
                 />
               </div>
             </div>
@@ -48,7 +53,8 @@ const Contact: React.FC = () => {
                   id="contactDetails"
                   value={contactDetails}
                   onChange={(e) => setContactDetails(e.target.value)}
-                  className="w-full h-20 px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="Your contact details"
+                  className={`w-full h-20 px-3 py-2 border rounded-md focus:outline-none focus:ring-2 transition-all duration-300 placeholder-gray-400 text-black`}
                 ></textarea>
               </div>
               <div className="w-full md:w-1/2 pl-4">
@@ -57,14 +63,15 @@ const Contact: React.FC = () => {
                   id="message"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
-                  className="w-full h-20 px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="Your message"
+                  className={`w-full h-20 px-3 py-2 border rounded-md focus:outline-none focus:ring-2 transition-all duration-300 placeholder-gray-400 text-black`}
                 ></textarea>
               </div>
             </div>
 
             <button
               type="submit"
-              className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md transition-colors duration-300 w-full md:w-auto ml-auto mt-4"
+              className="bg-blue-500 hover:bg-blue-600 text-black font-semibold py-2 px-4 rounded-md transition-colors duration-300 w-full md:w-auto ml-auto mt-4"
             >
               Submit
             </button>

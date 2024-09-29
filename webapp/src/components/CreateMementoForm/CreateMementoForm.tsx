@@ -15,7 +15,7 @@ export default function CreateMementoForm({
   const [memento, setMemento] = useState<Memento>(emptyMemento)
   const [date, setDate] = useState<Date>()
 
-  const isDarkMode = typeof window !== 'undefined' && localStorage.getItem('theme') === 'dark';
+
 
   const onSubmit = async (e: FormEvent) => {
     e.preventDefault()
@@ -37,7 +37,7 @@ export default function CreateMementoForm({
         <div className="max-w-[800px] w-full border border-border rounded-[20px] h-[470px] py-[24px] px-[42px]  text-2xl transition-colors duration-300 hover:border-fg " >
           <InputField
             value={memento.title}
-            className={`mt-2 outline-none pb-1 ${isDarkMode ? 'bg-black text-white' : 'bg-white text-black'} w-full placeholder:text-watermark h-[40px]`}
+            className={`mt-2 outline-none pb-1  w-full placeholder:text-watermark h-[40px]`}
 
             setValue={handleChange('title')}
             placeholder="Give this Memento a name"
@@ -46,8 +46,8 @@ export default function CreateMementoForm({
 
           <textarea
             value={memento.description}
-            // className="mt-2 outline-none pb-1 bg-bg w-full placeholder:text-watermark h-[380px] max-h-[380px] resize-none "
-            className={`mt-2 outline-none pb-1 ${isDarkMode ? 'bg-black text-white' : 'bg-white text-black'} w-full placeholder:text-watermark h-[40px]`}
+            className="mt-2 outline-none pb-1 bg-bg w-full placeholder:text-watermark h-[380px] max-h-[380px] resize-none "
+            
 
             placeholder="Write down anything that you want to say..."
             onChange={(e) => handleChange('description')(e.target.value)}
