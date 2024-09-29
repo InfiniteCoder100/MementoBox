@@ -41,29 +41,29 @@ Memento opens up a plethora of possibilities:
 
 Memento relies on a network of Solvers who work on computing the time-lock puzzles. Solvers are incentivized through bounties proportional to the time spent solving these puzzles.
 
-![Memento Solver](images/10.png)
-![Memento Solver](images/11.png)
-![Memento Solver](images/12.png)
+![Memento Solver](Images/10.png)
+![Memento Solver](Images/11.png)
+![Memento Solver](Images/12.png)
 
 ## Screenshots
 
 ### MementoBox Interface
-![Memento Interface](images/1.png)
+![Memento Interface](Images/1.png)
 
 ### Creating a Memento
-![Memento Interface](images/2.png)
-![Memento Interface](images/6.png)
-![Memento Interface](images/3.png)
-![Memento Interface](images/5.png)
+![Memento Interface](Images/2.png)
+![Memento Interface](Images/6.png)
+![Memento Interface](Images/3.png)
+![Memento Interface](Images/5.png)
 
 ### Viewing a Memento
-![Memento Interface](images/8.png)
-![Memento Interface](images/9.png)
+![Memento Interface](Images/8.png)
+![Memento Interface](Images/9.png)
 
 ### Solver written in Rust
 
-![Memento Interface](images/13.png)
-![Memento Interface](images/14.png)
+![Memento Interface](Images/13.png)
+![Memento Interface](Images/14.png)
 
 ## Roadmap
 
