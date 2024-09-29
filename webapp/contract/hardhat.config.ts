@@ -11,6 +11,10 @@ const config: HardhatUserConfig = {
       url: process.env.PROVIDER_URL,
       accounts: process.env.PRIVATE_KEY !== undefined ? [`0$[process.env.PRIVATE_KEY]`] : [],
     },
+    PolygonAmoy: {
+      url: process.env.POLYGONAMOY_API_URL,
+      accounts: process.env.PRIVATE_KEY !== undefined ? [`0$[process.env.PRIVATE_KEY]`] : [],
+    },
   },
 
 };

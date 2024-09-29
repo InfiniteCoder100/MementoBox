@@ -42,4 +42,5 @@ contract Memento {
 }
 
 
-// Contract Deployed : 0xc7f5c7f3819b107559567b556207b9fc0619e4a9
+// Contract Deployed on Scroll Sepolia testnet : 0xc7f5c7f3819b107559567b556207b9fc0619e4a9
+// Contract Deployed on Amoy Polygon testnet: 0xB62DE565F1BA01Ee87f4095535877550c6CdC2Ea
