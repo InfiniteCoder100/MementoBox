@@ -96,10 +96,16 @@ Used Web3Modal.
 
 Used web3storage/nftstorage.
 
+## License
+
+MIT
+
 
 ## Acknowledgements
 
 Thank you for your interest in MementoBox! We hope our project inspires more privacy-preserving applications on the Ethereum blockchain.
 
 ---
+
+
 
