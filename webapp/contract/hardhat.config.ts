@@ -15,6 +15,10 @@ const config: HardhatUserConfig = {
       url: process.env.POLYGONAMOY_API_URL,
       accounts: process.env.PRIVATE_KEY !== undefined ? [`0$[process.env.PRIVATE_KEY]`] : [],
     },
+    Sepolia: {
+      url: process.env.SEPOLIA_API_URL,
+      accounts: process.env.PRIVATE_KEY !== undefined ? [`0$[process.env.PRIVATE_KEY]`] : [],
+    },
   },
 
 };
