@@ -76,16 +76,16 @@ Memento relies on a network of Solvers who work on computing the time-lock puzzl
 
 ## Ethereum Sepolia contract address
 
-[Sepolia](0xaddBCDd962FbCa2Cb1bfeCe88a2d05cA42D21811)
+[0xaddBCDd962FbCa2Cb1bfeCe88a2d05cA42D21811](https://sepolia.etherscan.io/tx/0xc7001e408fb781d00573113ba9e1155d06fbfe0bd8504b161860a5e3dc87a017)
 
 
 ## Scroll contract address
 
-0xc7f5c7f3819b107559567b556207b9fc0619e4a9
+[0xc7f5c7f3819b107559567b556207b9fc0619e4a9](https://sepolia.scrollscan.com/tx/0x252188601a891b594ca6a0eb4abca9ce4f88130e4462ee56bfeddc7d1be993b3)
 
 ## Polygon Amoy contract address
 
-0xB62DE565F1BA01Ee87f4095535877550c6CdC2Ea
+[0xB62DE565F1BA01Ee87f4095535877550c6CdC2Ea](https://amoy.polygonscan.com/tx/0x11ff5f148ea2ab119bb947715eab8f908a81bfbefb5f6a0f78ebbc48fd9b7921)
 
 ## WalletConnect
 
