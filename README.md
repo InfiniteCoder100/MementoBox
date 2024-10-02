@@ -76,7 +76,7 @@ Memento relies on a network of Solvers who work on computing the time-lock puzzl
 
 ## Ethereum Sepolia contract address
 
-0xaddBCDd962FbCa2Cb1bfeCe88a2d05cA42D21811
+[Sepolia](0xaddBCDd962FbCa2Cb1bfeCe88a2d05cA42D21811)
 
 
 ## Scroll contract address
